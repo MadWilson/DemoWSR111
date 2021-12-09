@@ -98,7 +98,7 @@ public class SignUpActivity extends AppCompatActivity {
 
                     @Override
                     public void onFailure(Call<RegisterResponse> call, Throwable throwable) {
-                        String message = "Успех";
+                        String message = "Регистрация не прошла";
                         Toast.makeText(SignUpActivity.this, message, Toast.LENGTH_LONG).show();
                         startActivity(new Intent(SignUpActivity.this, SignInActivity.class));
 

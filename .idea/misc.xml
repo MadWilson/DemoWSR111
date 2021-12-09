@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/it/StudioProjects/DemoWSR22222/app/src/main/res/layout/activity_film.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/it/StudioProjects/DemoWSR22222/app/src/main/res/layout/activity_launch_screen.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/it/StudioProjects/DemoWSR22222/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/it/StudioProjects/DemoWSR22222/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
+        <entry key="..\:/Users/it/StudioProjects/DemoWSR22222/app/src/main/res/layout/activity_sign_up.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/it/StudioProjects/DemoWSR22222/app/src/main/res/layout/activity_watch_screen.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/it/StudioProjects/DemoWSR22222/app/src/main/res/layout/gallary_item.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/it/StudioProjects/DemoWSR22222/app/src/main/res/layout/list_item.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/it/StudioProjects/DemoWSR22222/app/src/main/res/menu/bottom_navigation.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/it/StudioProjects/DemoWSR22222/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
         <entry key="app/src/main/res/drawable/border.xml" value="0.5354166666666667" />
         <entry key="app/src/main/res/drawable/button_background.xml" value="0.5354166666666667" />
         <entry key="app/src/main/res/layout/activity_launch_screen.xml" value="0.4904891304347826" />
@@ -11,7 +21,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

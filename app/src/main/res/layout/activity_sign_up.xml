@@ -8,8 +8,8 @@
     tools:context=".SignUpActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="400dp"
+        android:layout_height="693dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="16dp"
@@ -31,15 +31,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            android:orientation="vertical"
             android:background="@drawable/button_background"
+            android:orientation="vertical"
             android:padding="1dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:background="@drawable/border">
+                android:background="@drawable/border"
+                android:orientation="vertical">
 
                 <EditText
                     android:id="@+id/edFirstName"
@@ -49,114 +49,119 @@
                     android:layout_marginLeft="5dp"
                     android:hint="Имя"
                     android:inputType="textPersonName"
-                    android:textColorHint="@color/text1" />
+                    android:textColor="@color/white"
+                    android:textColorHint="#86FFFFFF" />
             </LinearLayout>
 
         </LinearLayout>
 
         <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-         android:layout_marginTop="15dp"
-        android:background="@drawable/button_background"
-        android:padding="1dp">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_background"
+            android:orientation="vertical"
+            android:padding="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Фамилия"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textColorHint="#86FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_background"
             android:orientation="vertical"
-            android:background="@drawable/border">
+            android:padding="1dp">
 
-            <EditText
-                android:id="@+id/edLastName"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Фамилия"
-                android:inputType="textPersonName"
-                android:textColorHint="@color/text1" />
-        </LinearLayout>
-        </LinearLayout>
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/button_background"
-        android:padding="1dp">
+
+                <EditText
+                    android:id="@+id/edEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="E-mail"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/white"
+                    android:textColorHint="#86FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_background"
             android:orientation="vertical"
-            android:background="@drawable/border">
+            android:padding="1dp">
 
-
-        <EditText
-                android:id="@+id/edEmail"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="E-mail"
-                android:inputType="textEmailAddress"
-                android:textColorHint="@color/text1" />
-        </LinearLayout>
-    </LinearLayout>
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/button_background"
-        android:padding="1dp">
+
+                <EditText
+                    android:id="@+id/edPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Пароль"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textColorHint="#86FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_background"
             android:orientation="vertical"
-            android:background="@drawable/border">
+            android:padding="1dp">
 
-
-        <EditText
-                android:id="@+id/edPassword"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Пароль"
-                android:inputType="textPassword"
-                android:textColorHint="@color/text1" />
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/edAgainPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Повторите пароль"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textColorHint="#86FFFFFF" />
+
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/button_background"
-        android:padding="1dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:background="@drawable/border">
-
-
-        <EditText
-                android:id="@+id/edAgainPassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Повторите пароль"
-                android:inputType="textPassword"
-                android:textColorHint="@color/text1" />
-
-        </LinearLayout>
-    </LinearLayout>
 
         <Button
             android:id="@+id/btnSignUp"
@@ -166,21 +171,21 @@
             android:text="Зарегистрироваться"
             android:textAllCaps="false"
             android:textStyle="normal"
-            app:backgroundTint="#DB43DE"/>
+            app:backgroundTint="#DB43DE" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_marginTop="15dp"
             android:background="@drawable/button_background"
+            android:orientation="vertical"
             android:padding="1dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:background="@drawable/border">
+                android:background="@drawable/border"
+                android:orientation="vertical">
 
 
                 <Button
